@@ -44,7 +44,7 @@ defineProps({
 }
 
 .recipe-image {
-  background: #e8f1ec;
+  background: #630202;
   height: 150px;
   display: flex;
   justify-content: center;
