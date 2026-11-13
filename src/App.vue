@@ -6,27 +6,57 @@ import RecipeList from './components/RecipeList.vue'
 const recipes = [
   {
     id: 1,
-    name: 'Spaghetti',
-    description: 'Délicieuses pâtes à la sauce tomate.',
+    name: 'Spaghetti au steak',
+    description: 'Délicieuses pâtes à la sauce de steak.',
     time: 20,
     difficulty: 'Facile',
-    emoji: '🍝'
+    emoji: '🍝',
+    persons: 2
   },
   {
     id: 2,
-    name: 'Pizza',
-    description: 'Pizza maison aux légumes.',
+    name: 'Pizza au Steak',
+    description: 'Pizza maison au steak.',
     time: 35,
     difficulty: 'Moyen',
-    emoji: '🍕'
+    emoji: '🍕',
+    persons: 1
   },
   {
     id: 3,
-    name: 'Gâteau',
-    description: 'Gâteau au chocolat fait maison.',
+    name: 'Gâteau au steak',
+    description: 'Gâteau au steak fait maison.',
     time: 45,
     difficulty: 'Facile',
-    emoji: '🍰'
+    emoji: '🍰',
+    persons: 4
+  },
+  {
+    id: 4,
+    name: 'Steak',
+    description: 'Steak de boeuf fraichement abattu',
+    time: 50,
+    difficulty: 'Hardcore',
+    emoji: '🥩',
+    persons: "6 ou 7"
+  },
+  {
+    id: 5,
+    name: 'Glace au steak',
+    description: 'Glace saveur steak',
+    time: 50,
+    difficulty: 'Difficile',
+    emoji: '🍨',
+    persons: 25
+  },
+  {
+    id: 6,
+    name: 'Salade de steak',
+    description: 'Tranche de steak finement coupées en salade',
+    time: 50,
+    difficulty: 'Créatif',
+    emoji: '🥗',
+    persons: 116
   }
 ]
 </script>

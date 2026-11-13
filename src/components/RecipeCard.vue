@@ -7,6 +7,7 @@
     <div class="recipe-content">
       <h2>{{ recipe.name }}</h2>
       <p>{{ recipe.description }}</p>
+      <p>{{ recipe.persons }} personnes</p>
 
       <div class="recipe-info">
         <span>⏱ {{ recipe.time }} min</span>
@@ -14,6 +15,7 @@
         <span class="difficulty" :class="recipe.difficulty.toLowerCase()">
           {{ recipe.difficulty }}
         </span>
+        
       </div>
     </div>
   </article>
