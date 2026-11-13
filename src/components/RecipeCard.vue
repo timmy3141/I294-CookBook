@@ -32,8 +32,8 @@ defineProps({
 
 <style scoped>
 .recipe-card {
-  background: white;
-  border-radius: 12px;
+  background: rgb(255, 167, 167);
+  border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s;
@@ -49,7 +49,7 @@ defineProps({
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 65px;
+  font-size: 100px;
 }
 
 .recipe-content {
@@ -89,4 +89,20 @@ defineProps({
   background: #fff0ce;
   color: #946000;
 }
+
+.difficile {
+  background: #f32a10;
+  color: #eebbbb;
+}
+
+.hardcore {
+  background: #300701;
+  color: #c4bebe;
+}
+
+.paisible {
+  background: #50ebf7;
+  color: #081379;
+}
+
 </style>

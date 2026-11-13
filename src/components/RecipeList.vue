@@ -48,7 +48,7 @@ defineProps({
 .recipe-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 50px;
 }
 
 @media (max-width: 750px) {

@@ -1,6 +1,7 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import RecipeList from './components/RecipeList.vue'
+import RecipeFooter from './components/RecipeFooter.vue'
 
 // Les données de nos recettes
 const recipes = [
@@ -54,7 +55,7 @@ const recipes = [
     name: 'Salade de steak',
     description: 'Tranche de steak finement coupées en salade',
     time: 50,
-    difficulty: 'Créatif',
+    difficulty: 'Paisible',
     emoji: '🥗',
     persons: 116
   }
@@ -75,10 +76,7 @@ const recipes = [
       <!-- Composant enfant : liste des recettes -->
       <RecipeList :recipes="recipes" />
     </main>
-
-    <footer>
-      <p>© 2026 CookBook - Projet Vue.js CFC</p>
-    </footer>
+    <RecipeFooter />
   </div>
 </template>
 
